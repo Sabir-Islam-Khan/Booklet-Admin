@@ -16,6 +16,14 @@ class _UserApprovalState extends State<UserApproval> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.red[300],
+          leading: GestureDetector(
+            onTap: () => Navigator.pop(context),
+            child: Icon(
+              Icons.arrow_back_ios,
+              color: Colors.white,
+            ),
+          ),
           title: Center(
             child: Text(
               "User Manager",

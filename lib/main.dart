@@ -1,3 +1,4 @@
+import 'package:booklet_admin/Screens/HomePage.dart';
 import 'package:booklet_admin/Screens/UserApproval.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +11,7 @@ class BookletAdmin extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: UserApproval(),
+        body: HomePage(),
       ),
     );
   }
